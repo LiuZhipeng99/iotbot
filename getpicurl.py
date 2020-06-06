@@ -34,8 +34,31 @@ def getsetuR():
 	print(tags,picurl)
 	return title,author,tags,picurl
 
+def searchAV(a):
+	# http://sofan.vip/search?word=GENM-033
+	keys = a.Content.split(' ')[1]
+	strs = f'源地址为http://sofan.vip/search?word={keys}'
+	sendg(a.FromQQG,strs)
+	searchurl = f'http://sofan.vip/search?word={keys}'
+	r = requests.get(searchurl).text
+
+def showevenews():
+	if datetime.now().hour==23 and datetime.now().minute==40:
+		urlzhihu = 'https://api.meowv.com/common/hot_news?sourceId=12' #知乎
+		urlweibo = 'https://api.meowv.com/common/hot_news?sourceId=13'
+		hds = {'Accept':'application/json'}
+		r1 = requests.get(urlweibo,headers=hds).json()['result'][:5]
+		r2 = requests.get(urlzhihu,headers=hds).json()['result'][:5]
+		sendg(1039758138,'\n'.join(r1)+'\n\n'+'\n'.join(r2))
+
+
+
+
+
+
+
 def random():
-	if datetime.now().hour==23 and datetime.now().minute==1:
+	if datetime.now().hour==23 and datetime.now().minute==30:
 		sendPicg(1039758138,datetime.now(),'https://api.169740.com/api/rand.img5')
 
 def weather(a):
@@ -170,12 +193,12 @@ def format_msg(w, city, current=False):
 		current_time = datetime.now().strftime('%m/%d %X')
 		weather_str = f"{city['local']}（{city['country']}）\n{current_time}\n\n" \
 			f"天气：{w['current_weather']}\n气温：{w['current_temp']}\n体感温度：{w['current_feel']}\n" \
-				f"日出/日落：{w['sunrise']} / {w['sunset']}\n修改时间请发送【更改时间】\n修改地区请发送【更改地区】"
+				f"日出/日落：{w['sunrise']} / {w['sunset']}\n设置时间【更改时间】\n设置地区【更改地区】"
 	else:
 		weather_str = f"早安！\n{city['local']}（{city['country']}）\n{w['date']}\n\n" \
 			f"白天：{w['day_weather']}\n气温：{w['day_temp']}\n体感温度：{w['day_feel']}\n" \
 				f"夜晚：{w['night_weather']}\n气温：{w['night_temp']}\n体感温度：{w['night_feel']}\n" \
-					f"日出/日落：{w['sunrise']} / {w['sunset']}" 
+					f"日出/日落：{w['sunrise']} / {w['sunset']}\n发送【天气】获得实时天气" 
 	return weather_str
 
 

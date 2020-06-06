@@ -919,3 +919,59 @@
 2020-05-24 20:37:59,741 - C:\Users\asus\AppData\Local\Programs\Python\Python36\lib\site-packages\urllib3\connectionpool.py[line:396] - DEBUG: http://127.0.0.1:8888 "POST /v1/LuaApiCaller?funcname=SendMsg&qq=2810072376 HTTP/1.1" 200 19
 2020-05-24 20:58:31,773 - C:\Users\asus\Desktop\CQA-tuling\Weather-Pusher-1.3.2\iotbot\app.py[line:157] - INFO: [557625134]3137233896: {"GroupPic":[{"FileId":2914105546,"FileMd5":"r3021tCKW/eqeo9NaxipyA==","FileSize":9263,"ForwordBuf":"EiRBRjdEMzZENkQwOEE1QkY3QUE3QThGNEQ2QjE4QTlDOC5qcGcyVhU2IDg2ZUExQmFkYjFiOGNhNzkzMzhkNDkgICAgICA1MEFESHBjQ05iNXVTRktRRlpBRjdEMzZENkQwOEE1QkY3QUE3QThGNEQ2QjE4QTlDOC5qcGdBOMrxxu0KQMmazskHSFBQQloQQURIcGNDTmI1dVNGS1FGWmABahCvfTbW0Ipb96p6j01rGKnIclsvZ2NoYXRwaWNfbmV3LzMxMzcyMzM4OTYvNTU3NjI1MTM0LTI5MTQxMDU1NDYtQUY3RDM2RDZEMDhBNUJGN0FBN0E4RjRENkIxOEE5QzgvMTk4P3Rlcm09MjU1ggFZL2djaGF0cGljX25ldy8zMTM3MjMzODk2LzU1NzYyNTEzNC0yOTE0MTA1NTQ2LUFGN0QzNkQ2RDA4QTVCRjdBQTdBOEY0RDZCMThBOUM4LzA/dGVybT0yNTWgAegHsAGQA7gBlALAAcgByAGvSNABANgBxgHgAYgB6AEA8AEA+gFbL2djaGF0cGljX25ldy8zMTM3MjMzODk2LzU1NzYyNTEzNC0yOTE0MTA1NTQ2LUFGN0QzNkQ2RDA4QTVCRjdBQTdBOEY0RDZCMThBOUM4LzQwMD90ZXJtPTI1NYACgAOIAogCkgICeAI=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/3137233896/557625134-2534335053-AF7D36D6D08A5BF7AA7A8F4D6B18A9C8/0?vuin=2810072376\u0026term=255\u0026pictype=0"}],"Tips":"[群图片]"}
 2020-05-24 21:07:56,802 - C:\Users\asus\Desktop\CQA-tuling\Weather-Pusher-1.3.2\iotbot\app.py[line:214] - INFO: Connection error
+2020-06-06 22:06:10,202 - D:\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:813] - DEBUG: Starting new HTTPS connection (1): m.weathercn.com:443
+2020-06-06 22:06:10,441 - D:\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:393] - DEBUG: https://m.weathercn.com:443 "GET /current-weather.do?id=976306 HTTP/1.1" 200 None
+2020-06-06 22:06:10,449 - D:\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): 121.36.6.132:2233
+2020-06-06 22:06:10,660 - D:\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:393] - DEBUG: http://121.36.6.132:2233 "POST /v1/LuaApiCaller?funcname=SendMsg&qq=2810072376 HTTP/1.1" 200 19
+2020-06-06 22:06:15,035 - D:\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:813] - DEBUG: Starting new HTTPS connection (1): m.weathercn.com:443
+2020-06-06 22:06:15,241 - D:\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:393] - DEBUG: https://m.weathercn.com:443 "GET /current-weather.do?id=976306 HTTP/1.1" 200 None
+2020-06-06 22:06:15,247 - D:\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): 121.36.6.132:2233
+2020-06-06 22:06:15,399 - D:\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:393] - DEBUG: http://121.36.6.132:2233 "POST /v1/LuaApiCaller?funcname=SendMsg&qq=2810072376 HTTP/1.1" 200 19
+2020-06-06 22:09:56,451 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1138843053: 我游戏又崩了
+2020-06-06 22:10:02,389 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1138843053: ...
+2020-06-06 22:10:05,113 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1138843053: 我人傻了
+2020-06-06 22:10:25,681 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]3137233896: 卧槽
+2020-06-06 22:10:30,553 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]3137233896: 你搞锤子
+2020-06-06 22:10:32,811 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]3137233896: [表情13][表情13][表情13]
+2020-06-06 22:10:46,045 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: {"GroupPic":[{"FileId":2905859524,"FileMd5":"hznGhVWF4DEt4Oty3yntTQ==","FileSize":30912,"ForwordBuf":"EiQ4NzM5QzY4NTU1ODVFMDMxMkRFMEVCNzJERjI5RUQ0RC5qcGcyVhU2IDg2ZUExQmFkMzNlNWM0YjdjMGM0ZDIgICAgICA1MEhLMkdBM3JyZ1dzdzU1OWU4NzM5QzY4NTU1ODVFMDMxMkRFMEVCNzJERjI5RUQ0RC5qcGdBOMTLz+kKQNKJg74LSFBQQloQSEsyR0EzcnJnV3N3NTU5ZWABahCHOcaFVYXgMS3g63LfKe1NclsvZ2NoYXRwaWNfbmV3LzEyOTA1ODczMTUvNTU3NjI1MTM0LTI5MDU4NTk1MjQtODczOUM2ODU1NTg1RTAzMTJERTBFQjcyREYyOUVENEQvMTk4P3Rlcm09MjU1ggFZL2djaGF0cGljX25ldy8xMjkwNTg3MzE1LzU1NzYyNTEzNC0yOTA1ODU5NTI0LTg3MzlDNjg1NTU4NUUwMzEyREUwRUI3MkRGMjlFRDRELzA/dGVybT0yNTWgAegHsAG4A7gBzATAAWfIAcDxAdABANgBlAHgAcYB6AEA8AEA+gFbL2djaGF0cGljX25ldy8xMjkwNTg3MzE1LzU1NzYyNTEzNC0yOTA1ODU5NTI0LTg3MzlDNjg1NTU4NUUwMzEyREUwRUI3MkRGMjlFRDRELzQwMD90ZXJtPTI1NYACnwKIAoADkgIaCAEQADIASg5b5Yqo55S76KGo5oOFXVAAeAU=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/1290587315/557625134-2534335053-8739C6855585E0312DE0EB72DF29ED4D/0?vuin=2810072376\u0026term=255\u0026pictype=0"}],"Tips":"[群图片]"}
+2020-06-06 22:10:52,147 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 我感觉我们遇到挂了
+2020-06-06 22:10:57,591 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1138843053: 算了我重启吧
+2020-06-06 22:11:06,299 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 那我去看哈录像
+2020-06-06 22:11:58,248 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]3137233896: 好的
+2020-06-06 22:12:07,016 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 我重启哈大厅
+2020-06-06 22:12:33,034 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1138843053: 我人傻了
+2020-06-06 22:12:55,106 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]3137233896: 搞不到事你
+2020-06-06 22:15:27,889 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 好了吗
+2020-06-06 22:16:02,095 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]3137233896: {"Content":"@Stay ","UserID":[1290587315]}
+2020-06-06 22:16:03,286 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]3137233896: 好了
+2020-06-06 22:16:12,235 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 啊。。。
+2020-06-06 22:16:21,433 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 你看了吗
+2020-06-06 22:16:23,250 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 怎么说
+2020-06-06 22:16:29,508 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]3137233896:  快点
+2020-06-06 22:16:31,701 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]3137233896: 来来来
+2020-06-06 22:16:35,559 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 我不知道怎么快进[表情182][表情182]
+2020-06-06 22:16:37,770 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]3137233896: 你离线
+2020-06-06 22:16:40,860 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1138843053: 按J
+2020-06-06 22:16:47,510 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: {"GroupPic":[{"FileId":2856217239,"FileMd5":"hznGhVWF4DEt4Oty3yntTQ==","FileSize":30912,"ForwordBuf":"EiQ4NzM5QzY4NTU1ODVFMDMxMkRFMEVCNzJERjI5RUQ0RC5qcGcyVhU2IDg2ZUExQmFhM2U2YTk3ZGZhNzU2MmEgICAgICA1MEhLMkdBM3JyZ1dzdzU1OWU4NzM5QzY4NTU1ODVFMDMxMkRFMEVCNzJERjI5RUQ0RC5qcGdBOJfV+dEKQKqsnf0NSFBQQloQSEsyR0EzcnJnV3N3NTU5ZWABahCHOcaFVYXgMS3g63LfKe1NclsvZ2NoYXRwaWNfbmV3LzEyOTA1ODczMTUvNTU3NjI1MTM0LTI4NTYyMTcyMzktODczOUM2ODU1NTg1RTAzMTJERTBFQjcyREYyOUVENEQvMTk4P3Rlcm09MjU1ggFZL2djaGF0cGljX25ldy8xMjkwNTg3MzE1LzU1NzYyNTEzNC0yODU2MjE3MjM5LTg3MzlDNjg1NTU4NUUwMzEyREUwRUI3MkRGMjlFRDRELzA/dGVybT0yNTWgAegHsAG4A7gBzATAAWfIAcDxAdABANgBlAHgAcYB6AEA8AEA+gFbL2djaGF0cGljX25ldy8xMjkwNTg3MzE1LzU1NzYyNTEzNC0yODU2MjE3MjM5LTg3MzlDNjg1NTU4NUUwMzEyREUwRUI3MkRGMjlFRDRELzQwMD90ZXJtPTI1NYACnwKIAoADkgIaCAEQADIASg5b5Yqo55S76KGo5oOFXVAAeAU=","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/1290587315/557625134-2534335053-8739C6855585E0312DE0EB72DF29ED4D/0?vuin=2810072376\u0026term=255\u0026pictype=0"}],"Tips":"[群图片]"}
+2020-06-06 22:16:57,940 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]3137233896: 就是挂
+2020-06-06 22:17:03,331 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1138843053: 要看人按TAB
+2020-06-06 22:17:20,360 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: {"GroupPic":[{"FileId":3104547497,"FileMd5":"phxmSeM/vXaDHrG3lXVpPw==","FileSize":1115143,"ForwordBuf":"EiRBNjFDNjY0OUUzM0ZCRDc2ODMxRUIxQjc5NTc1NjkzRi5qcGcyVhU2IDg2ZUExQmI5MGJhMmE5NmYxZTlmYjAgICAgIDFiYkhLMkdBM3JyZ1dzdzU1OWVBNjFDNjY0OUUzM0ZCRDc2ODMxRUIxQjc5NTc1NjkzRi5qcGdBOKnFrsgLQLC/+vgGSLsDUEJaEEhLMkdBM3JyZ1dzdzU1OWVgAWoQphxmSeM/vXaDHrG3lXVpP3JbL2djaGF0cGljX25ldy8xMjkwNTg3MzE1LzU1NzYyNTEzNC0zMTA0NTQ3NDk3LUE2MUM2NjQ5RTMzRkJENzY4MzFFQjFCNzk1NzU2OTNGLzE5OD90ZXJtPTI1NXpbL2djaGF0cGljX25ldy8xMjkwNTg3MzE1LzU1NzYyNTEzNC0zMTA0NTQ3NDk3LUE2MUM2NjQ5RTMzRkJENzY4MzFFQjFCNzk1NzU2OTNGLzcyMD90ZXJtPTI1NYIBWS9nY2hhdHBpY19uZXcvMTI5MDU4NzMxNS81NTc2MjUxMzQtMzEwNDU0NzQ5Ny1BNjFDNjY0OUUzM0ZCRDc2ODMxRUIxQjc5NTc1NjkzRi8wP3Rlcm09MjU1oAHoB7AB7xC4AbgIwAHIAcgBh4hE0AEB2AHGAeABY+gBAPABAPoBWy9nY2hhdHBpY19uZXcvMTI5MDU4NzMxNS81NTc2MjUxMzQtMzEwNDU0NzQ5Ny1BNjFDNjY0OUUzM0ZCRDc2ODMxRUIxQjc5NTc1NjkzRi80MDA/dGVybT0yNTWAAoADiALAAZICAngB","ForwordField":8,"Url":"http://gchat.qpic.cn/gchatpic_new/1290587315/557625134-2534335053-A61C6649E33FBD76831EB1B79575693F/0?vuin=2810072376\u0026term=255\u0026pictype=0"}],"Tips":"[群图片]"}
+2020-06-06 22:17:22,036 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 好像有点慢。
+2020-06-06 22:17:28,843 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]3137233896: 没事
+2020-06-06 22:17:50,070 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 拉我
+2020-06-06 22:32:57,698 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1138843053: {"Content":"@Stay 你下机了吗","UserID":[1290587315]}
+2020-06-06 22:33:07,616 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 啊
+2020-06-06 22:33:09,564 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 没有啊
+2020-06-06 22:33:17,236 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 我看你们都掉了[表情182][表情182]
+2020-06-06 22:33:43,868 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 再啦一哈[表情182]
+2020-06-06 22:33:56,526 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]3137233896: 拉了
+2020-06-06 22:34:21,263 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 最后一把[表情221]
+2020-06-06 22:34:35,130 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1138843053: ？
+2020-06-06 22:36:23,253 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 你们都没说话欸
+2020-06-06 22:44:36,339 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 残忍杀害队友
+2020-06-06 22:45:03,350 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]3137233896: 我打你了
+2020-06-06 22:45:15,775 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: [表情5][表情5][表情5]
+2020-06-06 22:46:49,657 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 她在我的面前 我却不知道珍惜
+2020-06-06 22:47:02,989 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]1290587315: 欸
+2020-06-06 22:48:52,939 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]3137233896: [表情178][表情178][表情178]
+2020-06-06 22:48:55,595 - D:\mygithub\iotbot\app.py[line:158] - INFO: [557625134]3137233896: 牛逼

@@ -7,7 +7,8 @@ import logging
 # import pdb
 import getpicurl
 sio = socketio.Client()
-webapi = 'http://127.0.0.1:8888' #"http://121.36.6.132:2233"
+# webapi = 'http://127.0.0.1:8888' #
+webapi = "http://121.36.6.132:2233"
 robotqq = '2810072376' #第一个bug大概是这个没用字符串
 # Global R18 = 0
 
@@ -121,7 +122,9 @@ def OnGroupMsgs(message):
 		sendPicg(a.FromQQG,'',requests.get('http://api.mtyqx.cn/tapi/random.php',allow_redirects=False).headers['location'])
 		sendPicg(a.FromQQG,'','https://api.169740.com/api/rand.img5')
 		return
-
+	if a.cm[0]=='#磁链' and cm[1]!=None:
+		getpicurl.searchAV(a)
+		return
 
 
 	# te = re.search(r'\#(.*)',str(a.Content))
@@ -163,7 +166,7 @@ def OnFriendMsgs(message):
 	tmp3 = message['CurrentPacket']['Data']
 	a = Mess(tmp3)
 	cm = a.Content.split(' ')
-	if a.Content=='#list':
+	if a.Content=='list':
 		send(a.FromQQ,"目前可用功能：\n点歌（点歌好运来）\n搜书（搜书 书名）\n口吐莲花\n祖安语录\n彩虹屁\n舔狗日记\n随机图片\n天气")
 		return
 	if a.Content=='舔狗日记':
