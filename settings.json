@@ -1,0 +1,84 @@
+{
+    "city_list": {
+        "威远县": {
+            "code": "61062",
+            "local": "威远县",
+            "admin": "四川省",
+            "country": "中国",
+            "time_zone": 8,
+            "members": []
+        },
+        "新场镇": {
+            "code": "80644",
+            "local": "新场镇",
+            "admin": "四川省",
+            "country": "中国",
+            "time_zone": 8,
+            "members": []
+        },
+        "都江堰": {
+            "code": "61110",
+            "local": "都江堰",
+            "admin": "四川省",
+            "country": "中国",
+            "time_zone": 8,
+            "members": [
+                [
+                    488455393,
+                    10
+                ]
+            ]
+        },
+        "重庆": {
+            "code": "102144",
+            "local": "重庆",
+            "admin": "重庆市",
+            "country": "中国",
+            "time_zone": 8,
+            "members": []
+        },
+        "泸州": {
+            "code": "60973",
+            "local": "泸州",
+            "admin": "四川省",
+            "country": "中国",
+            "time_zone": 8,
+            "members": []
+        },
+        "龙马潭区": {
+            "code": "2333455",
+            "local": "龙马潭区",
+            "admin": "四川省",
+            "country": "中国",
+            "time_zone": 8,
+            "members": [
+                [
+                    1044618137,
+                    8
+                ]
+            ]
+        },
+        "沙坪坝街道": {
+            "code": "2592994",
+            "local": "沙坪坝街道",
+            "admin": "重庆市",
+            "country": "中国",
+            "time_zone": 8,
+            "members": []
+        },
+        "沙坪坝区": {
+            "code": "976306",
+            "local": "沙坪坝区",
+            "admin": "重庆市",
+            "country": "中国",
+            "time_zone": 8,
+            "members": [
+                [
+                    1695949332,
+                    6
+                ]
+            ]
+        }
+    },
+    "version": "1.3.2"
+}
